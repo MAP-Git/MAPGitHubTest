@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sp-fx-drop-zone-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spFxDropZoneWp/SpFxDropZoneWpWebPart.js",
+          "manifest": "./src/webparts/spFxDropZoneWp/SpFxDropZoneWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpFxDropZoneWpWebPartStrings": "lib/webparts/spFxDropZoneWp/loc/{locale}.js"
+  }
+}

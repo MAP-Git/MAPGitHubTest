@@ -1,0 +1,3 @@
+This is sample file to be uploaded to GitHub
+This is updated from GitHub
+This is updated from machine
