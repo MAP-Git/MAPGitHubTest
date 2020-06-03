@@ -26,7 +26,7 @@ export default class Dashboard extends React.Component<any> {
         <div className={ styles.container }>
           <div className={ styles.row }>
             <div className={ styles.column }>
-              Welcome to Dashboard Page
+              (1) : Welcome to Dashboard Page
 
               <DateTimePicker label="DateTime Picker - 12h"
                               dateConvention={DateConvention.DateTime}
